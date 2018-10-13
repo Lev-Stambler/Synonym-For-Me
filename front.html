@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+	#thesaurus
+	{
+		width    : 600px;
+    	height   : 260px;
+		overflow : hidden;
+		position : relative;
+	}
+    #iframe 
+    { 
+    	width: 1200px;
+    	height: 1000px;
+    	position: absolute;
+    	top: -200px;
+    	left: -10px;
+    }
+    #iframe 
+    {
+        -ms-zoom: 0.75;
+        
+        -webkit-transform: scale(0.75);
+        -webkit-transform-origin: 0 0;
+        
+    }
+    #getSelec
+    {
+    	width: 600px;
+    	height: 20px;
+    	margin: 2px;
+    	position: relative;
+    	border-width: 0px;
+    	background-color: transparent;
+    	cursor: pointer;
+    	font-family: fantasy;
+    	letter-spacing: 1px;
+    	font-size: 15px;
+    }
+</style>
+	<title></title>
+</head>
+<body>
+
+<div id = "thesaurus"><iframe id = "iframe" src="">Synonym's Seen Here</iframe></div>
+<button id = "getSelec">Click For Synonym</button>
+<script type="text/javascript" src="front.js"></script>
+</body>
+</html>
